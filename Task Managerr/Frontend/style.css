@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-priority {
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.task-priority.low {
+    color: green;
+}
+
+.task-priority.medium {
+    color: orange;
+}
+
+.task-priority.high {
+    color: red;
+}
